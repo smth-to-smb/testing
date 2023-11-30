@@ -22,6 +22,6 @@ jobs:
       - name: 'Qodana Scan'
         uses: JetBrains/qodana-action@v2023.2
         with:
-          args: -l jetbrains/qodana-dotnet:latest
+          args: -l jetbrains/qodana-dotnet:2023.3-eap
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
